@@ -1,0 +1,16 @@
+⚙️ STEP 3: Revert Windows to DHCP and Access LuCI
+Return to the Windows adapter settings (Win + R -> ncpa.cpl -> IPv4 Properties).
+
+Select "Obtain an IP address automatically" and click OK.
+
+Your PC will automatically receive an IP address in the 192.168.1.x range.
+
+Open your browser and go to: http://192.168.1.1.
+
+On the OpenWrt (LuCI) login page:
+
+Username: root
+
+Password: (Leave blank)
+
+Click Log in.

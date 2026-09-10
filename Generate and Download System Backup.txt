@@ -1,0 +1,14 @@
+💾 STEP 7: Generate and Download System Backup
+After confirming active internet connectivity across all interfaces, generate a full configuration backup:
+
+Open LuCI in your browser (http://192.168.1.1).
+
+Go to System -> Backup / Flash Firmware.
+
+Under the Backup section, click Generate archive.
+
+The browser will download an archive file (e.g., backup-OpenWrt-xxxx.tar.gz).
+
+Store this file safely. If the router is reset to defaults, restoring this file under Restore backup will instantly re-apply all settings.
+
+Documented by Filipe Joana.

@@ -1,0 +1,14 @@
+📊 How to Verify Internet Connection in LuCI
+Go to Network -> Wireless and inspect the Wireless Overview section:
+
+Active Connection Indicator (Associated Stations):
+
+Under Associated Stations, you should see Client "Home" (wlan0) listing the MAC Address and Host/IP (e.g., 192.168.150.1) assigned by the primary router.
+
+The Signal / Noise bar will display signal strength (e.g., -64 dBm).
+
+Radio Modes (radio0):
+
+SSID: Home | Mode: Client -> Confirms client association to the upstream router.
+
+SSID: Home-Ext3 | Mode: Master -> Confirms local AP broadcast status.

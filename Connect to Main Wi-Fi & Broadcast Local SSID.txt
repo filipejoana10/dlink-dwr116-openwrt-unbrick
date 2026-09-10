@@ -1,0 +1,17 @@
+🌐 STEP 4: Connect to Main Wi-Fi & Broadcast Local SSID
+Navigate to Network -> Wireless to configure wireless reception and broadcast:
+
+1. Connect to the Main Router (ISP Wi-Fi)
+On the wireless radio (radio0), click the Scan button.
+
+Find the primary Wi-Fi network (e.g., "Home") and click Join Network.
+
+In the configuration popup:
+
+WPA passphrase: Enter the password of the main Wi-Fi network.
+
+Name of the new network: Ensure it is set to wwan.
+
+Create / Assign firewall-zone: Select the wan zone.
+
+Click Submit, then click Save & Apply at the bottom of the page.

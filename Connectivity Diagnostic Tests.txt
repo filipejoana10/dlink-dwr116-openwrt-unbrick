@@ -1,0 +1,12 @@
+🧪 STEP 6: Connectivity Diagnostic Tests
+Run ping tests in the SSH terminal to verify routing health:
+
+Verify router internet reachability:
+
+1> Bash
+ping -c 4 google.com
+Verify LAN bridge (br-lan) interface forwarding:
+
+2> Bash
+ping -c 4 -I br-lan 8.8.8.8
+Setup is successful when both diagnostic tests return 0% packet loss.

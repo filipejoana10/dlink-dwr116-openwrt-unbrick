@@ -1,0 +1,26 @@
+STEP 5: Enable Internet Passthrough for LAN Ports (via SSH)
+To ensure outbound traffic on physical LAN ports (br-lan) is correctly masqueraded through OpenWrt 22.03's nftables firewall:
+
+Open the Windows Command Prompt (Win + R -> cmd) and establish an SSH session:
+
+ 1> Bash
+ssh root@192.168.1.1
+Paste the following block into the terminal to bind wlan0 to the wan zone and update firewall rules:
+
+2> Bash
+uci set network.wwan=interface
+uci set network.wwan.proto='dhcp'
+uci set network.wwan.device='wlan0'
+uci set firewall.@zone[1].network='wan wan6 wwan'
+uci set firewall.@zone[1].masq='1'
+uci add firewall forwarding
+uci set firewall.@forwarding[-1].src='lan'
+uci set firewall.@forwarding[-1].dest='wan'
+uci commit
+service network restart
+service firewall restart
+wifi reload
+Force a DHCP request on the wireless interface:
+
+3> Bash
+udhcpc -i wlan0

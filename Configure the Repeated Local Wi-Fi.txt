@@ -1,0 +1,20 @@
+2. Configure the Repeated Local Wi-Fi
+To broadcast a new wireless network from the D-Link:
+
+Under Network -> Wireless, click Add on the radio0 row.
+
+Under General Setup:
+
+Mode: Select Access Point.
+
+ESSID: Set your new network name (e.g., Home-Ext3).
+
+Network: Check the lan interface box.
+
+Under Wireless Security:
+
+Encryption: Select WPA2-PSK (CCMP).
+
+Key: Enter the new password for your repeated Wi-Fi network.
+
+Click Save, then click Save & Apply.

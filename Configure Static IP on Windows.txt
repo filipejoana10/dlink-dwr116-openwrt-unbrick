@@ -1,0 +1,18 @@
+🖥️ STEP 1: Configure Static IP on Windows
+To communicate with the router in Emergency Recovery Mode, your computer must be set to the 192.168.0.x IP range.
+
+On Windows, press Win + R, type ncpa.cpl, and press Enter.
+
+Right-click your Ethernet Network Adapter and select Properties.
+
+Double-click Internet Protocol Version 4 (TCP/IPv4).
+
+Select "Use the following IP address" and fill in:
+
+IP address: 192.168.0.2
+
+Subnet mask: 255.255.255.0
+
+Default gateway: 192.168.0.1
+
+Click OK and then OK.

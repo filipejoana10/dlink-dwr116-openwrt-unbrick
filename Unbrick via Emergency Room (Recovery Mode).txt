@@ -1,0 +1,18 @@
+🔄 STEP 2: Unbrick via Emergency Room (Recovery Mode)
+Unplug the router's power supply from the wall.
+
+Using a paperclip or pin, press and hold the RESET button on the rear panel.
+
+While keeping the RESET button held down, plug the power cable back in.
+
+Hold the RESET button for 10 to 15 seconds until the Power LED begins flashing orange/red.
+
+Open your web browser and navigate to: http://192.168.0.1.
+
+On the recovery web page, click Choose File and select the downloaded OpenWrt .bin factory file.
+
+Click Upload / Send.
+
+WAIT 3 TO 5 MINUTES without touching anything.
+
+Critical Step: Once the Power LED stabilizes, unplug the router from power, wait 5 seconds, and plug it back in.
