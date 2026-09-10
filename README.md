@@ -9,8 +9,8 @@ A comprehensive, step-by-step guide to recovering an inaccessible (*bricked*) **
 - **Hardware:** D-Link DWR-116 (HW Ver: A1)
 - **OpenWrt Release:** `22.03.7`
 - **Factory Firmware (For Emergency / First Flash):**  
-[  👉 [`openwrt-22.03.7-ramips-rt305x-dlink_dwr-116-a1-squashfs-factory.bin`](https://downloads.openwrt.org/releases/22.03.7/targets/ramips/rt305x/openwrt-22.03.7-ramips-rt305x-dlink_dwr-116-a1-squashfs-factory.bin)
-](https://downloads.openwrt.org/releases/22.03.7/targets/ramips/mt7620/openwrt-22.03.7-ramips-mt7620-dlink_dwr-116-a1-squashfs-factory.bin)- **Ethernet Cable** connected from your PC to the **LAN 1** port on the router.
+https://downloads.openwrt.org/releases/22.03.7/targets/ramips/mt7620/openwrt-22.03.7-ramips-mt7620-dlink_dwr-116-a1-squashfs-factory.bin
+ **Ethernet Cable** connected from your PC to the **LAN 1** port on the router.
 
 ---
 
